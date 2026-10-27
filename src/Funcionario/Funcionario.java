@@ -1,6 +1,10 @@
 package Funcionario;
+
+import java.util.Random;
+
 public class Funcionario{
-    private int id;
+    private Random r = new Random();
+    private int id = r.nextInt(1000);
     private String nome;
 
     public Funcionario(String nome, int id) {
