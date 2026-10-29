@@ -12,6 +12,9 @@ public class Funcionario{
         this.nome = nome;
     }
 
+    // ! Apenas para chamar "adicionarFuncionario"
+    public Funcionario() {}
+
     public int getId() {
         return id;
     }
@@ -21,5 +24,10 @@ public class Funcionario{
     }
     public void setNome(String nome){
         this.nome = nome;
+    }
+
+
+    public void adicionarFuncionario(TipoFunc tipo){
+        
     }
 }
