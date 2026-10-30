@@ -1,0 +1,24 @@
+{
+  "name": "rhproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gui-leite233/RHProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gui-leite233/RHProject/issues"
+  },
+  "homepage": "https://github.com/Gui-leite233/RHProject#readme",
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "prettier-plugin-java": "^2.11.0"
+  }
+}
